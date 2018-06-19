@@ -7,6 +7,8 @@
   <p><%= post.body %></p>
   <p><%= post.created_at %></p>
   <p><%= post.updated_at %></p>
-  <a href="/post/<%= post.id%>">글보기</a>
+  <a href="/post/<%= post.id %>">글보기</a>
+  <a href="/post/<%= post.id %>/destroy">글삭제</a>
+  <a href="/post/<%= post.id %>/edit">글수정</a>
   <hr />
 <% end %>
